@@ -1,1 +1,1 @@
-this folder contains the code used in my lab tasks.
+this repo contains the code used in my lab tasks.
