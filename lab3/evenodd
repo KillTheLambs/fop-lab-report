@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main () {
+     int var1;
+
+     printf("\t***** WELCOME TO EVEN ODD FINDER *****\n\n");
+
+     printf("\tPlease Enter your Number : ");
+     scanf("%d",&var1);
+
+     printf("\n\t************** RESULT **************\n\n");
+
+     if (var1 % 2 == 0)
+         printf("\t%d is an even number\n",var1);
+     else 
+         printf("\t%d is an odd number\n",var1);
+         
+     printf("\n\t********* THANKYOU FOR USING ********\n\n");
+
+    return 0;
+}
