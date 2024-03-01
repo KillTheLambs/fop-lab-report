@@ -24,6 +24,7 @@ int main() {
 
     printf("\n\033[1;36mValue of a = %d\033[0m", a);
     printf("\n\033[1;36mValue of b = %d\033[0m\n", b);
+    printf("\n");
 
     return 0;
 }
