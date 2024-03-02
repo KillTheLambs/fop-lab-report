@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to print colored text
+// function to print colored text
 void printColorText(char* text, char* color) {
     printf("%s%s%s", color, text, "\033[0m");
 }
@@ -24,6 +24,7 @@ int main() {
                          (side1 == side2 || side2 == side3 || side1 == side3) ? "\nIsosceles triangle" :
                          "\nScalene triangle";
 
+    printf("\nYour Triangle type is: \n");
     printColorText(triangleType, "\033[1;34m");
 
     printColorText("\nThank you for using the Triangle Program!\n", "\033[1;32m");
