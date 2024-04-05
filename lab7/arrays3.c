@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    char vowels[] = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
+    char vowels[10] = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
     char input;
 
     printf("Enter a character: ");
     scanf("%c", &input);
 
     int isVowel = 0;
-    for (int i = 0; i < sizeof(vowels) / sizeof(vowels[0]); i++) {
+    for (int i = 0; i < 10; i++) {
         if (input == vowels[i]) {
             isVowel = 1;
             break;
